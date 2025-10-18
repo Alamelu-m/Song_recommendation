@@ -24,8 +24,8 @@ app.add_middleware(
 )
 
 # ----- Spotify Setup -----
-client_id = "f1efcd6f692f4509afa2dff4f13bad41"
-client_secret = "ba887a1d4a9c48f1b9485e28fa676000"
+client_id = "YOUR SPOTIFY ID"
+client_secret = "YOUR SPOTIFY SECRET"
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 
 
